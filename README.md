@@ -33,9 +33,6 @@ Built with **Node.js**, **Express**, **Axios**, **EJS**, and styled using **Pico
 ```text
 project-root/
 │
-├── public/
-│   └── (optional static files)
-│
 ├── views/
 │   ├── index.ejs
 │   └── stock.ejs
