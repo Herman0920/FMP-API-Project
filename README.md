@@ -163,5 +163,3 @@ Created by Herman as a beginner full-stack project using public APIs and Express
 ## 📄 License
 
 This project is for educational purposes.
-
----
