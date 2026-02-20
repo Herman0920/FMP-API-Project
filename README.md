@@ -48,7 +48,13 @@ project-root/
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the repository
+### 1. Get your API key
+
+Register an account at https://site.financialmodelingprep.com/register and get your API key.
+
+---
+
+### 2. Clone the repository
 
 ```bash
 git clone https://github.com/Herman0920/FMP-API-Project.git
@@ -57,7 +63,7 @@ cd FMP-API-Project
 
 ---
 
-### 2. Install dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
@@ -65,7 +71,7 @@ npm install
 
 ---
 
-### 3. Create a `.env` file
+### 4. Create a `.env` file
 
 In the project root, create a file named `.env`:
 
@@ -77,7 +83,7 @@ API_KEY=your_fmp_api_key_here
 
 ---
 
-### 4. Run the server
+### 5. Run the server
 
 ```bash
 node index.js
@@ -91,7 +97,7 @@ npx nodemon index.js
 
 ---
 
-### 5. Open in browser
+### 6. Open in browser
 
 Visit:
 
