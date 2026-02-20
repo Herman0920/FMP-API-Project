@@ -11,10 +11,29 @@
   <body class="container">
     <header></header>
     <main>
-        <div>
-            <h1>Stock Price Information</h1>
-            
-        </div>
+      <div>
+        <h1 style="text-align: center"><%= stockData.symbol %> Quote</h1>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Price</th>
+              <th scope="col">Change (%)</th>
+              <th scope="col">Change</th>
+              <th scope="col">Volume</th>
+              <th scope="col">Market Cap</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">$<%= stockData.price %></th>
+              <td><%= stockData.changePercentage.toFixed(2) %> %</td>
+              <td><%= stockData.change %></td>
+              <td><%= stockData.volume %></td>
+              <td><%= stockData.marketCap %></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </main>
     <footer></footer>
   </body>

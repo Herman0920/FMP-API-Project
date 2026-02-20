@@ -20,15 +20,13 @@ app.get("/stock", async (req, res) => {
     const response = await axios.get(
       `https://financialmodelingprep.com/stable/quote?symbol=${symbol}&apikey=${apiKey}`,
     );
-    const stockData = response.data;
+    const stockData = response.data[0];
     console.log("Fetched stock data:", stockData);
-    res.render("stock.ejs", { stockData });
+    res.render("stock.ejs", { stockData: stockData });
   } catch (error) {
     console.error("Error fetching stock data:", error);
     res.status(500).json({ error: "Failed to fetch stock data" });
   }
-
-  
 });
 
 app.listen(PORT, () => {
