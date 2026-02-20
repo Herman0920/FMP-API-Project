@@ -52,6 +52,7 @@ project-root/
 
 ```bash
 git clone https://github.com/Herman0920/FMP-API-Project.git
+cd FMP-API-Project
 ```
 
 ---
